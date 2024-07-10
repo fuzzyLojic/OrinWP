@@ -1,0 +1,155 @@
+/*
+Theme Name: Teczilla Dark
+Theme URI: 
+Template: teczilla
+Author: avadantathemes
+Author URI: https://www.avadantathemes.com/
+Description:  Teczilla dark is a child theme of teczilla wordpress which is multipurpose theme and it has most beautiful designs.you can make any website using this theme which is compaitable to all type of websites.It has built in typography also dynamic typography also has unlimited color options in it.The theme suitable for dark, architecture, interior design, business, decoration, business, furniture, home decor, law firm, dark, insurance, app landing page, it solutions, shop ecommerce, marketing, gym, blog, travel dark, construction,  spa salons, wedding planners, Beauty, photography, and many other websites compatible.all the sections has diffeent option with multiple settings.It has full width template which is responsive in all devices. SEO optimized pages and fast speed loading.Compatible with gutenberg, elemnetor page builder WooCommerce, contact form 7, Jetpack, Google analytics and so many popular premium & free plugins nicely works with teczilla theme. For more theme information, check out Theme demo here at https://www.avadantathemes.com/demo/teczilla-dark/ and theme instructions here at https://www.avadantathemes.com/documentation/teczilla-free-theme/
+Version: 1.0.1
+Requires at least: 5.0
+Tested up to: 5.8
+Requires PHP: 5.6
+Text Domain: teczilla-dark
+Tags: one-column, two-columns, four-columns, right-sidebar, flexible-header, custom-background, custom-header, custom-menu, editor-style, featured-images, footer-widgets, rtl-language-support, translation-ready, full-width-template, custom-logo, blog, e-commerce, post-formats, theme-options, threaded-comments,  portfolio
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv2 or later
+*/
+
+body{
+
+	font-family: 'Manrope', sans-serif;
+}
+
+.current_page_item{
+
+	background: none !important;
+}
+
+.full-width-header .tec-header .menu-area.tecdark{
+
+	background: #000 !important;
+}
+
+.menu>.menu-item>a, .menu .page_item a{
+
+	color: #fff !important
+}
+
+.home-slider .container .slider-caption:after{
+
+display: none;
+
+}
+
+.home-slider .container .slider-caption {
+    padding: 0;
+}
+
+.home-slider .container .slider-caption .slider-title {
+    font-weight: 800;
+    }
+.home-slider .container .slider-caption{
+
+	text-align: center;
+}
+
+.tec-about{
+
+	background: #131a24;
+}
+
+.sec-title h2,
+.content-part .title a,
+.content-part .desc,
+.wgs.comments h3,
+.comment-metadata a{
+
+	color: #fff !important;
+}
+
+.sec-title .desc{
+
+color: #a3a3a3;
+}
+
+.tec-services,.tec-portfolio,.tec-team,.tec-partner {
+
+	background: #000;
+}
+
+.tec-services.style2 .service-wrap{
+
+background: #181717; 
+	}
+
+.tec-testimonial,.tec-blog.style1 
+{
+
+	background: #141414;
+}
+
+.tec-testimonial .white-bg {
+    background-color: #1e1f22;
+}
+
+.tec-team.inner .team-item .text-bottom{
+
+	opacity: 0.65;
+}
+
+.sec-title .sub-title.primary:after{
+
+	display: none;
+}
+
+.sec-title .sub-title{
+
+	text-transform: capitalize;
+}
+
+@media screen and (max-width: 1440px){
+.home-slider .container .slider-caption {
+    left: 64%;
+}
+}
+
+.home-slider .container .slider-caption{
+
+	width: 700px;
+	z-index: 99;
+}
+
+p,.content-part li a{
+
+	color: #fff;
+}
+
+.carousel-control-next, .carousel-control-prev{
+
+	z-index: 9999;
+}
+
+.tec-testimonial.style1 .testi-item .posted-by .name{
+
+	color:#fff;
+}
+
+.image-part img{
+
+	width: 100%;
+}
+
+.menu-toggle .fa{
+
+	color: #fff;
+}
+
+.comment-content a,
+.widget_block.widget_text a{
+
+text-decoration: underline !important;
+}
+
+.page_item_has_children>a:after {
+    right: 4px;
+    }
